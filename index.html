@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Profile</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #01889f;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color:white;
+}
+#myHeader {
+  background-color:#13bbaf;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+} 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  font-family: Times New Roman;
+  
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+  border-bottom: 1px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: #d8dcd6;
+}
+tr:hover {background-color: Yellow;}
+
+nav {
+  float: left;
+  width: 30%;
+  background: #d4ffff;
+  padding: 20px;
+  height: 2100px; 
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #ffffff;
+  height: 2100px; 
+}
+
+footer {
+  background-color: #01889f;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  height: 10%;
+}
+@media (max-width: 100%) {
+nav, article {
+    width: 100%;
+     }
+}
+</style>
+</head>
+<body>
+<header>
+<audio autoplay loop> <source src="Beautiful-Piano.mp3" type="audio/mpeg"> </audio>
+ <table style="border-bottom:1px dashed white;background-color: #01889f"> 
+<tr>
+<td style="background-color: #01889f;border-bottom:1px dashed white;"  rowspan="2"><img src="profil.jpg" alt="profile picture"  style="border-radius:50%; vertical-align:middle; width:200px; height:300px;">
+</td>
+<td  style="background-color: #01889f;border-bottom:1px dashed white;"><b>Amal HANNOUDA</b></td>
+</tr>
+<tr>
+<td style="background-color: #01889f;border-bottom:1px dashed white;">&#127891; First year master student at kyoto College of Graduate studies for Informatics</td> 
+</tr> 
+</table>
+</header>
+
+<nav>
+</div>
+<p style="font-family:cursive;font-size:18px;"><strong><u>Summary:</u> To secure a challenging position in reputable organization to expand my learning knowledge and skill</strong></p>
+<p style="border:2px solid black;font-size:23px;"><strong>Personal information:</strong></p>
+<p><b><u>Date of Birth:</u></b><br/> April 20, 1987</p>
+<p><b><u>Nationality:</u></b><br/> Moroccan</p>
+<address>
+<p><b><u> My adress:</u></b></p>
+<pre>606-8263
+&nbsp;&nbsp;Kyoto-shi, Sakyo-ku,
+&nbsp;&nbsp;Kitashirakawa Higashitsuta-cho 21-13<wbr>,
+&nbsp;&nbsp;Casa di Mano 104,
+&nbsp;&nbsp;Kyoto, Japan</pre>
+</address>
+
+<Email>
+<p><b><u>My Email:</u></b><br/>&nbsp; &nbsp;&nbsp;hannouda.amal@gmail.com<br/> &nbsp; &nbsp;&nbsp;st122201@m2.kcg.edu</p>
+</Email>
+
+<p style="border:2px solid black;font-size:23px;"><strong>Hobbies:</strong></p>
+<p style="font-family: Georgia;font-size:20px;">&#127860; <b>C</b>ooking<wbr></p>
+<img src="couscous.jpg" alt="Couscous" style="vertical-align:middle;width:200px; height:160px;">
+<p style="font-family: Georgia;font-size:20px;">&#127759; <b>T</b>ravel<wbr></p>
+<img src="tokyo.jpg" alt="Tokyo"  style="vertical-align:middle; width:200px; height:160px;"><br/>
+<p style="font-family: Georgia;font-size:20px;">&#127932; <b>C</b>lassical music</p>
+<iframe width="200px" height="160px" src="https://www.youtube.com/embed/BeZy45Wdwag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p style="border:2px solid black;font-size:23px;"><strong>Comment:</strong></p>
+<form action="process.php" method="get">
+<p>Name <br/>
+<input type="text" placeholder="Please enter your name" 
+name="name"></p>
+<p>Birthdate<br/>
+<input type="date" name="bday"/>
+</p>
+<p>Gender<br/>
+<select name="gender">
+<option value="male">Male</option>
+<option value="female">Female</option>
+</select>
+</p>
+<p>Email <br/>
+<input type="email" placeholder="Please enter your email" 
+name="email"></p>
+</form>
+<p>What do you think about my profile page?<br/>
+<!-- This is a comment -->
+<input type="radio" name="genre" value="excellent" checked="checked"/> Excellent &#11088;&#11088;&#11088;&#11088;<br/>
+<input type="radio" name="genre" value="good"/> Good &#11088;&#11088;&#11088;<br/>
+<input type="radio" name="genre" value="medium"/> Medium &#11088;&#11088;<br/>
+<input type="radio" name="genre" value="to improve"/> To improve &#11088;</p>
+<p>Comments <br/>
+<textarea name="comments" cols="30" rows="20">Please enter your 
+comments...</textarea> </p>
+
+<input type="submit" value="Submit">
+
+<p><a href="#" class="btn btn-primary" color="blue"><b>Back to Top</b> &#128285;</a></p>
+</nav>
+  
+<article> 
+	<h1 id="myHeader"><strong>Formation</strong></h1>
+ 		<ul>
+     		<li><u>2022 - Now (I will be graduated in 2024)</u></li>
+     			<p><b>Kyoto College of Graduate Studies for Informatics</b><a href="https://www.kcg.edu/" target="_blank"> KCGI</a><br/></p>
+				<p>Specialization: <i>Business Data Analytics</i></p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.041827125353!2d135.7793021!3d35.0306835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001085a40096db1%3A0x8c895182522ac6d1!2sThe%20Kyoto%20College%20of%20Graduate%20Studies%20for%20Informatics!5e0!3m2!1sfr!2sjp!4v1652542798504!5m2!1sfr!2sjp" width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <li><u>2020 - 2022</u></li>
+     <p><b>Sakitama International Academy(SIA)</b><br/>Specialization: <i>Japanese language</i></p>
+     		<li><u>2008 - 2012</u></li>
+     <p><b>National Institute of Statistics and Applied Economics </b><a href="http://www.insea.ac.ma/" target="_blank">INSEA</a></p>
+	 <p>State engineer studies<br/>Specialization: <i>Actuarial Science-Finance</i></p>
+     		<li><u>2008</u></li>
+     <p><b>Certificate of Eligibility to the 2008 National Common Competitive EXAM</b></p>
+     		<li><u>2005 - 2007</u></li>
+     <p><b>Preparatory classes for engineering higher schools- Ibnou Taimya</b><br/>Specialization: <i>Mathematics-physics</i></p>
+	    </ul>
+<h2 id="myHeader"><strong>Professional experiences</strong></h2>
+ <ul>
+     <li><u>2019 - 2017</u></li>
+     <p><b>Freelance Teacher</b><i>(Independent support teacher)</i></p>
+     <blockquote>
+         <p> I gave<sup>"</sup>support classes<sup>"</sup> for students of all levels and especially those of terminal classes (3rd year college and 3rd year high school) and who have academic difficulties in science subjects (Mathematics and physics).</p></blockquote>
+    <li><u>2017/07 - 2017/10</u></li>
+     <p><b>IMAJOR CONSTRUCTION S.A.R.L</b><i>(Internship at financial department)</i></p>
+     <blockquote>
+         <p>I was in charge of preparing the invoices. Inventory follow-up and contact of supplies if necessary as well as the follow-up of shipments and the search for new customers. printers, computers...). I was also responsible for emailing the catalog to all customers and informing them of all offers.</p></blockquote>
+         <p>Missions:</p>
+         <ol>
+             <li>Preparing des invoices.</li>
+             <li>Stock tracking and contact supplies if needed.</li>
+             <li>Follow up the shipments.</li>
+             <li>Looking for new clients.</li>
+         </ol><br>
+     <li><u>2016/12 - 2017/05</u></li>
+     <p><b>Topographie ingenierie LAOUANE</b><i>(Internship at accounting department)</i></p>
+     <blockquote>
+         <p>I was responsible for preparing customer invoices, as well as providing the accountant with all the documents relating to the expenses and profits necessary for the establishment of the annual balance sheet.</p>
+     </blockquote>
+         <p>Missions:</p>
+         <ol>
+             <li>Preparing des invoices.</li>
+             <li>Contact the accountant and prepare all documents he needs for the annual report.</li>  
+         </ol>
+</ul>
+<h3 id="myHeader"><strong>Technical skills</strong></h3>
+<table>
+<tr>
+<th>Fields</th>
+<th>Skills</th>
+</tr>
+<tr>
+<td><b>Finance and Management</b></td>
+<td> <b>B</b>usiness Management, <b>P</b>ortfolio Management and Financial Market,  <b>F</b>inancial analysis of insurance and banks.</td>
+<tr>
+<td><b>Actuarial and Risk Analysis</b></td>
+<td><b>R</b>isk Theory, <b>L</b>ife Insurance, <b>N</b>on-Life Insurance, <b>P</b>ensions and Insurance Group, <b>R</b>einsurance.</td>
+</tr>
+<tr>
+<td><b>Statistics and Demography</b></td>
+<td><b>D</b>escriptive Statistics, <b>M</b>odeling and Statistical Analysis, <b>S</b>urvey Techniques, <b>M</b>ethodology of statistical surveys, <b>P</b>rinciples and Methods of demographic analysis.</td>
+</tr>
+<tr>
+<td><b>Accounting and Economics</b></td>
+<td><b>G</b>eneral accounting, <b>N</b>ational accounting, <b>I</b>nsurance and banking accounting, <b>M</b>acroeconomics, <b>M</b>icroeconomics, <b>E</b>conometrics.</td>
+</tr>
+</table>
+<h4 id="myHeader"><strong>Languages skills</strong></h4>
+    <ol>
+         <li><u>Arab</u><i>(mother tongue)</i></li>
+         <li><u>French</u><i>(TCF C2)</i></li>
+         <li><u>English</u><i>(TOEIC 675)</i></li>
+         <li><u>Japanese</u><i>(intermediate)</i></li>
+    </ol>
+</article>
+
+<footer>
+<div style="text-align:center;padding:10px;margin-top:7px;">This website is copyrighted &copy; 2022 </div>
+</footer>
+
+</body>
+</html>
+
+
+
+
